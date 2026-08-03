@@ -5,11 +5,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Saima's Creation | Premium Polo Collection</title>
+<title>Saima's Creation | Premium Polo T-Shirt</title>
 
-<meta name="description" content="Saima's Creation Premium Polo T-Shirt Collection. 260 GSM, 95% Cotton, 5% Spandex, Combed Yarn.">
+<meta name="description" content="Saima's Creation Premium Polo T-Shirt - 260 GSM, 95% Cotton, 5% Spandex, Combed Yarn.">
 
 <style>
+
 *{
     margin:0;
     padding:0;
@@ -22,7 +23,7 @@ html{
 
 body{
     font-family:Arial, Helvetica, sans-serif;
-    background:#f7f7f7;
+    background:#f6f6f6;
     color:#111;
     line-height:1.6;
 }
@@ -38,15 +39,15 @@ a{
     margin:auto;
 }
 
-/* HEADER */
+/* ================= HEADER ================= */
 
 header{
     background:#0d0d0d;
-    color:white;
+    color:#fff;
     position:sticky;
     top:0;
     z-index:1000;
-    box-shadow:0 3px 18px rgba(0,0,0,.18);
+    box-shadow:0 3px 20px rgba(0,0,0,.2);
 }
 
 .navbar{
@@ -67,30 +68,41 @@ header{
 
 .nav-links{
     display:flex;
-    gap:28px;
+    gap:30px;
     list-style:none;
 }
 
 .nav-links a{
+    color:#fff;
     font-size:14px;
     font-weight:bold;
-    color:#fff;
+    transition:.3s;
 }
 
 .nav-links a:hover{
     color:#d6b36a;
 }
 
-/* HERO */
+/* ================= HERO ================= */
 
 .hero{
     min-height:650px;
     display:flex;
     align-items:center;
-    background:
-        radial-gradient(circle at 80% 30%,rgba(214,179,106,.25),transparent 35%),
-        linear-gradient(135deg,#0d0d0d,#292929 55%,#777);
     color:#fff;
+
+    background:
+        radial-gradient(
+            circle at 80% 30%,
+            rgba(214,179,106,.25),
+            transparent 35%
+        ),
+        linear-gradient(
+            135deg,
+            #080808,
+            #292929 55%,
+            #707070
+        );
 }
 
 .hero-content{
@@ -99,13 +111,13 @@ header{
 
 .badge{
     display:inline-block;
-    padding:8px 15px;
+    padding:8px 16px;
     border:1px solid #d6b36a;
     color:#d6b36a;
     border-radius:30px;
     font-size:12px;
     font-weight:bold;
-    letter-spacing:1.5px;
+    letter-spacing:2px;
     margin-bottom:22px;
 }
 
@@ -134,9 +146,10 @@ header{
 
 .btn{
     display:inline-block;
-    padding:14px 27px;
+    padding:14px 28px;
     border-radius:6px;
     font-weight:bold;
+    transition:.3s;
 }
 
 .btn-primary{
@@ -146,6 +159,7 @@ header{
 
 .btn-primary:hover{
     background:#fff;
+    transform:translateY(-2px);
 }
 
 .btn-outline{
@@ -158,7 +172,7 @@ header{
     color:#111;
 }
 
-/* SECTION */
+/* ================= SECTION ================= */
 
 .section{
     padding:80px 0;
@@ -185,7 +199,7 @@ header{
     color:#777;
 }
 
-/* PRODUCT */
+/* ================= PRODUCT ================= */
 
 .product-section{
     background:#fff;
@@ -201,13 +215,9 @@ header{
 .product-photo{
     height:560px;
     border-radius:18px;
-    background:
-        linear-gradient(135deg,#ececec,#cfcfcf);
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    background:#eeeeee;
     overflow:hidden;
-    box-shadow:0 12px 35px rgba(0,0,0,.1);
+    box-shadow:0 12px 35px rgba(0,0,0,.12);
 }
 
 .product-photo img{
@@ -215,18 +225,6 @@ header{
     height:100%;
     object-fit:cover;
     display:block;
-}
-
-.image-placeholder{
-    text-align:center;
-    color:#777;
-}
-
-.image-placeholder strong{
-    display:block;
-    font-size:22px;
-    color:#444;
-    margin-bottom:8px;
 }
 
 .product-info .tag{
@@ -249,7 +247,7 @@ header{
 }
 
 .price{
-    font-size:32px;
+    font-size:34px;
     font-weight:800;
     margin-bottom:22px;
 }
@@ -275,7 +273,7 @@ header{
 
 .detail strong{
     display:block;
-    font-size:12px;
+    font-size:11px;
     color:#888;
     text-transform:uppercase;
     margin-bottom:3px;
@@ -295,6 +293,7 @@ header{
     border-radius:7px;
     font-weight:bold;
     font-size:16px;
+    transition:.3s;
 }
 
 .order-button:hover{
@@ -302,7 +301,7 @@ header{
     color:#111;
 }
 
-/* FEATURES */
+/* ================= FEATURES ================= */
 
 .features-section{
     background:#111;
@@ -336,7 +335,7 @@ header{
     font-size:14px;
 }
 
-/* SPECS */
+/* ================= DETAILS ================= */
 
 .specs{
     display:grid;
@@ -360,7 +359,7 @@ header{
     color:#777;
 }
 
-/* CTA */
+/* ================= CTA ================= */
 
 .cta{
     background:linear-gradient(135deg,#111,#292929);
@@ -378,7 +377,7 @@ header{
     margin-bottom:25px;
 }
 
-/* FOOTER */
+/* ================= FOOTER ================= */
 
 footer{
     background:#080808;
@@ -416,7 +415,7 @@ footer p{
     font-size:13px;
 }
 
-/* MOBILE */
+/* ================= MOBILE ================= */
 
 @media(max-width:850px){
 
@@ -484,14 +483,17 @@ footer p{
         font-size:32px;
     }
 }
+
 </style>
 </head>
 
 <body>
 
-<!-- HEADER -->
+
+<!-- ================= HEADER ================= -->
 
 <header>
+
 <div class="container navbar">
 
 <a href="#home" class="logo">
@@ -499,17 +501,31 @@ footer p{
 </a>
 
 <ul class="nav-links">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#product">Polo</a></li>
-    <li><a href="#details">Details</a></li>
-    <li><a href="#contact">Contact</a></li>
+
+<li>
+<a href="#home">Home</a>
+</li>
+
+<li>
+<a href="#product">Polo</a>
+</li>
+
+<li>
+<a href="#details">Details</a>
+</li>
+
+<li>
+<a href="#contact">Contact</a>
+</li>
+
 </ul>
 
 </div>
+
 </header>
 
 
-<!-- HERO -->
+<!-- ================= HERO ================= -->
 
 <section class="hero" id="home">
 
@@ -518,27 +534,35 @@ footer p{
 <div class="hero-content">
 
 <div class="badge">
-    PREMIUM POLO COLLECTION
+PREMIUM POLO COLLECTION
 </div>
 
 <h1>
-    Premium Polo.<br>
-    <span class="gold">Made For Your Style.</span>
+
+Premium Polo.<br>
+
+<span class="gold">
+Made For Your Style.
+</span>
+
 </h1>
 
 <p>
-    Discover our premium Polo T-Shirt collection,
-    crafted for comfort, durability and modern everyday style.
+
+Discover our premium Polo T-Shirt collection,
+crafted for comfort, durability and modern
+everyday style.
+
 </p>
 
 <div class="buttons">
 
 <a href="#product" class="btn btn-primary">
-    View Polo
+View Polo
 </a>
 
 <a href="#contact" class="btn btn-outline">
-    Order Now
+Order Now
 </a>
 
 </div>
@@ -550,7 +574,7 @@ footer p{
 </section>
 
 
-<!-- PRODUCT -->
+<!-- ================= PRODUCT ================= -->
 
 <section class="section product-section" id="product">
 
@@ -558,9 +582,13 @@ footer p{
 
 <div class="section-title">
 
-<small>Featured Product</small>
+<small>
+Featured Product
+</small>
 
-<h2>Premium Polo T-Shirt</h2>
+<h2>
+Premium Polo T-Shirt
+</h2>
 
 <p>
 Premium fabric. Premium finishing. Everyday comfort.
@@ -572,71 +600,113 @@ Premium fabric. Premium finishing. Everyday comfort.
 <div class="product-box">
 
 
+<!-- PRODUCT IMAGE -->
+
 <div class="product-photo">
 
-<div class="image-placeholder">
-
-<strong>POLO T-SHIRT</strong>
-
-<span>
-Your product image will appear here
-</span>
+<img
+src="images/polo.jpg"
+alt="Saima's Creation Premium Polo T-Shirt"
+>
 
 </div>
 
-</div>
 
+<!-- PRODUCT INFORMATION -->
 
 <div class="product-info">
 
 <div class="tag">
-    Import / Export Quality
+Premium Quality
 </div>
 
 <h2>
-    Premium Polo T-Shirt
+Premium Polo T-Shirt
 </h2>
 
 <p>
+
 A premium everyday Polo designed with comfortable
 fabric, modern fitting and clean finishing.
 Perfect for casual wear, outings, travel and daily style.
+
 </p>
 
+
 <div class="price">
-    ৳ 1,250 <span>Best Price</span>
+
+৳ 1,250
+
+<span>
+Best Price
+</span>
+
 </div>
 
 
 <div class="details">
 
-<div class="detail">
-<strong>Fabric</strong>
-<span>95% Cotton + 5% Spandex</span>
-</div>
 
 <div class="detail">
-<strong>GSM</strong>
-<span>260 GSM</span>
+
+<strong>
+Fabric
+</strong>
+
+<span>
+95% Cotton + 5% Spandex
+</span>
+
 </div>
 
-<div class="detail">
-<strong>Yarn</strong>
-<span>Combed Yarn</span>
-</div>
 
 <div class="detail">
-<strong>Sizes</strong>
-<span>S – XXL</span>
+
+<strong>
+GSM
+</strong>
+
+<span>
+260 GSM
+</span>
+
 </div>
+
+
+<div class="detail">
+
+<strong>
+Yarn
+</strong>
+
+<span>
+Combed Yarn
+</span>
+
+</div>
+
+
+<div class="detail">
+
+<strong>
+Sizes
+</strong>
+
+<span>
+S – XXL
+</span>
+
+</div>
+
 
 </div>
 
 
 <a
 class="order-button"
-href="https://wa.me/8801775153724?text=Hello%20Saima's%20Creation,%20I%20want%20to%20order%20Premium%20Polo%20T-Shirt."
-target="_blank">
+href="https://wa.me/8801775153724?text=Hello%20Saima's%20Creation,%20I%20want%20to%20order%20Premium%20Polo%20T-Shirt%20for%20Tk%201250."
+target="_blank"
+>
 
 🛒 Order Now on WhatsApp
 
@@ -651,7 +721,7 @@ target="_blank">
 </section>
 
 
-<!-- WHY US -->
+<!-- ================= WHY CHOOSE US ================= -->
 
 <section class="section features-section">
 
@@ -659,20 +729,29 @@ target="_blank">
 
 <div class="section-title">
 
-<small>Why Choose Us</small>
+<small>
+Why Choose Us
+</small>
 
-<h2>Built For Everyday Comfort</h2>
+<h2>
+Built For Everyday Comfort
+</h2>
 
 </div>
 
 
 <div class="features">
 
+
 <div class="feature">
 
-<div class="icon">✦</div>
+<div class="icon">
+✦
+</div>
 
-<h3>Premium Fabric</h3>
+<h3>
+Premium Fabric
+</h3>
 
 <p>
 High-quality fabric selected for comfort and durability.
@@ -683,9 +762,13 @@ High-quality fabric selected for comfort and durability.
 
 <div class="feature">
 
-<div class="icon">✓</div>
+<div class="icon">
+✓
+</div>
 
-<h3>260 GSM</h3>
+<h3>
+260 GSM
+</h3>
 
 <p>
 Premium heavyweight Polo fabric with a quality feel.
@@ -696,9 +779,13 @@ Premium heavyweight Polo fabric with a quality feel.
 
 <div class="feature">
 
-<div class="icon">♡</div>
+<div class="icon">
+♡
+</div>
 
-<h3>Comfort Fit</h3>
+<h3>
+Comfort Fit
+</h3>
 
 <p>
 Designed for comfortable everyday movement and wear.
@@ -709,15 +796,20 @@ Designed for comfortable everyday movement and wear.
 
 <div class="feature">
 
-<div class="icon">↗</div>
+<div class="icon">
+↗
+</div>
 
-<h3>Home Delivery</h3>
+<h3>
+Home Delivery
+</h3>
 
 <p>
 Order easily and receive your product at home.
 </p>
 
 </div>
+
 
 </div>
 
@@ -726,7 +818,7 @@ Order easily and receive your product at home.
 </section>
 
 
-<!-- DETAILS -->
+<!-- ================= PRODUCT DETAILS ================= -->
 
 <section class="section" id="details">
 
@@ -734,18 +826,25 @@ Order easily and receive your product at home.
 
 <div class="section-title">
 
-<small>Product Information</small>
+<small>
+Product Information
+</small>
 
-<h2>Everything You Need To Know</h2>
+<h2>
+Everything You Need To Know
+</h2>
 
 </div>
 
 
 <div class="specs">
 
+
 <div class="spec">
 
-<h3>👕 Fabric Quality</h3>
+<h3>
+👕 Fabric Quality
+</h3>
 
 <p>
 95% Cotton + 5% Spandex for a comfortable,
@@ -757,7 +856,9 @@ soft and slightly stretchable feel.
 
 <div class="spec">
 
-<h3>🧵 Combed Yarn</h3>
+<h3>
+🧵 Combed Yarn
+</h3>
 
 <p>
 Combed yarn provides a smoother and more premium
@@ -769,7 +870,9 @@ fabric feel for everyday use.
 
 <div class="spec">
 
-<h3>⚡ 260 GSM</h3>
+<h3>
+⚡ 260 GSM
+</h3>
 
 <p>
 Heavyweight 260 GSM construction gives the Polo
@@ -781,7 +884,9 @@ a premium and durable feel.
 
 <div class="spec">
 
-<h3>📏 Available Sizes</h3>
+<h3>
+📏 Available Sizes
+</h3>
 
 <p>
 Available from S to XXL. Choose your preferred
@@ -793,7 +898,9 @@ size before placing your order.
 
 <div class="spec">
 
-<h3>🎨 Multiple Colors</h3>
+<h3>
+🎨 Multiple Colors
+</h3>
 
 <p>
 Available in multiple stylish colors for different
@@ -805,7 +912,9 @@ outfits and occasions.
 
 <div class="spec">
 
-<h3>🚚 Home Delivery</h3>
+<h3>
+🚚 Home Delivery
+</h3>
 
 <p>
 Home delivery available. Contact us for delivery
@@ -814,6 +923,7 @@ details and product availability.
 
 </div>
 
+
 </div>
 
 </div>
@@ -821,7 +931,7 @@ details and product availability.
 </section>
 
 
-<!-- CTA -->
+<!-- ================= CONTACT / CTA ================= -->
 
 <section class="section cta" id="contact">
 
@@ -836,10 +946,12 @@ Contact Saima's Creation for price, color, size
 and availability.
 </p>
 
+
 <a
-href="https://wa.me/8801775153724?text=Hello%20Saima's%20Creation,%20I%20want%20to%20know%20about%20your%20Premium%20Polo%20T-Shirt."
+href="https://wa.me/8801775153724?text=Hello%20Saima's%20Creation,%20I%20want%20to%20order%20your%20Premium%20Polo%20T-Shirt."
 target="_blank"
-class="btn btn-primary">
+class="btn btn-primary"
+>
 
 📞 WhatsApp: 01775-153724
 
@@ -850,7 +962,7 @@ class="btn btn-primary">
 </section>
 
 
-<!-- FOOTER -->
+<!-- ================= FOOTER ================= -->
 
 <footer>
 
@@ -858,10 +970,13 @@ class="btn btn-primary">
 
 <div class="footer-content">
 
+
 <div>
 
 <div class="footer-logo">
+
 Saima's <span>Creation</span>
+
 </div>
 
 <p>
@@ -870,15 +985,23 @@ Premium Polo T-Shirt Collection.
 
 </div>
 
+
 <div>
 
-<p>📞 01775-153724</p>
+<p>
+📞 01775-153724
+</p>
 
-<p>📦 Home Delivery Available</p>
+<p>
+📦 Home Delivery Available
+</p>
 
-<p>📍 Uttara, Dhaka</p>
+<p>
+📍 Uttara, Dhaka
+</p>
 
 </div>
+
 
 </div>
 
@@ -892,6 +1015,7 @@ Premium Polo T-Shirt Collection.
 </div>
 
 </footer>
+
 
 </body>
 </html>
